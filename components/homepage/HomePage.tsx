@@ -1,7 +1,5 @@
-"use client";
-
 import InfoCards from "../cards/InfoCards";
-import HomeImg from "../../public/images/Homeimg.png";
+import homeImg from "../../public/images/Homeimg.png";
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "./Slider";
@@ -55,9 +53,9 @@ const HomePage = () => {
         </div>
         <div className="w-[50%] md:w-[40%] md:flex justify-end lg:justify-start">
           <Image
-            src={HomeImg}
+            src={homeImg}
             alt="homeImage"
-            priority={false}
+            priority
             className="object-cover md:w-[40%] md:h-max lg:transform lg:my-[3rem] lg:scale-[250%]"
           />
         </div>
